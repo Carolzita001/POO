@@ -4,8 +4,8 @@ public class Professor extends Pessoa{
 	private String materia;
 	
 	Professor(){
+		super("", 0);
 		this.materia = "Desconhecido";
-		//this("");
 	}
 	
 	Professor(String nome, int idade, String materia){

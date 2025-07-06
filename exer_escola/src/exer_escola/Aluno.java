@@ -4,8 +4,8 @@ public class Aluno  extends Pessoa{
 	private String disciplina;
 	
 	Aluno(){
+		super("", 0);
 		this.disciplina = "Desconhecido";
-		//this("");
 	}
 	
 	Aluno(String nome, int idade, String disciplina){
